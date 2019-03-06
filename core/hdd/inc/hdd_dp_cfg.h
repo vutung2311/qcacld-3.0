@@ -1122,7 +1122,7 @@
  */
 #define CFG_DP_RX_WAKELOCK_TIMEOUT \
 	CFG_INI_UINT("rx_wakelock_timeout", \
-	0, 100, 50, CFG_VALUE_OR_DEFAULT, \
+	0, 0, 0, CFG_VALUE_OR_DEFAULT, \
 	"Amount of time to hold wakelock for RX unicast packets")
 
 /*
